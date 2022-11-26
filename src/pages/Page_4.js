@@ -1,7 +1,7 @@
 import React from 'react';
 import Tabs from '../components/Tabs';
 import heart from '../assets/images/heart.png';
-import heartimg from '../assets/images/heart-img.png';
+// import heartimg from '../assets/images/heart-img.png';
 import { Link } from "react-router-dom";
 import indication from '../assets/images/indication.png'
 function Page_4() {

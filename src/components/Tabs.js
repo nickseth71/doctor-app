@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHome, FaDatabase, FaInfo, FaDelicious } from "react-icons/fa";
 import { ImExit } from "react-icons/im";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Tabs() {
   let navigate = useNavigate();

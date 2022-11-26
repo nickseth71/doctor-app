@@ -1,7 +1,7 @@
 import React from 'react';
 import Tabs from '../components/Tabs';
 import satyamave from '../assets/images/satyamave.png';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Page_8() {
     return (
