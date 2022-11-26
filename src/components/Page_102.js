@@ -1,5 +1,5 @@
 import React from 'react';
-import Tabs from './Tabs';
+// import Tabs from './Tabs';
 import stepsBreathingman1 from '../assets/images/stepsto-breathing.png';
 import stepstoBreathingman2 from '../assets/images/steps-breathingman.png';
 import userHead1 from '../assets/images/user-head1.png';

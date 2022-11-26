@@ -1,7 +1,7 @@
 import React from 'react';
 // import Tabs from '../components/Tabs';
 import { Link } from "react-router-dom";
-import { IoIosArrowForward } from 'react-icons/io';
+// import { IoIosArrowForward } from 'react-icons/io';
 const btnData = [
   {
     id: '1',

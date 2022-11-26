@@ -1,5 +1,5 @@
-import React,{ useState } from 'react';
-import Tabs from './Tabs';
+import React, { useState } from 'react';
+// import Tabs from './Tabs';
 import twohand from '../assets/images/twohand.png';
 import doctorHelpBreathing from '../assets/images/doctor-helpbreathing.png';
 import ambulence from '../assets/images/ambulence.png';
@@ -9,25 +9,25 @@ import highbreathing from '../assets/images/right-breathing.png';
 import hightwaverate from '../assets/images/hightwaverate.png';
 import heart from '../assets/images/low-heart.png';
 
-import  {IoIosArrowForward}  from 'react-icons/io';
+import { IoIosArrowForward } from 'react-icons/io';
 
 
 
 function Page_11() {
   const [color, setColor] = useState(true);
-  const addClassActive = (e)=>{
-document.querySelectorAll('.accordion-cta').forEach(item=>{
-  item.classList.remove('active');
-})
-setColor(!color);
-console.log(color);
-if(color){
-  e.target.classList.remove("active")
-} else{
-  e.target.classList.add("active")
-}
+  const addClassActive = (e) => {
+    document.querySelectorAll('.accordion-cta').forEach(item => {
+      item.classList.remove('active');
+    })
+    setColor(!color);
+    console.log(color);
+    if (color) {
+      e.target.classList.remove("active")
+    } else {
+      e.target.classList.add("active")
+    }
 
-// e.targget.classList.add('active');
+    // e.targget.classList.add('active');
   }
 
   return (
@@ -37,7 +37,7 @@ if(color){
         <div className="accordion card-container" id="accordionExample">
           <div className="card">
             <div className="card-header" id="headingOne">
-              <button className="btn-block default-btn accordion-cta active" onClick={(e)=>addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button className="btn-block default-btn accordion-cta active" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 How can I be sure that the person who collapsed has had a cardiac arrest? <span><IoIosArrowForward /> </span>
               </button>
             </div>
@@ -64,8 +64,8 @@ if(color){
           </div>
           <div className="card">
             <div className="card-header" id="headingTwo">
-              <button className="btn-block default-btn accordion-cta" onClick={(e)=>addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                What are the 4 basic steps of CPR <span><IoIosArrowForward /></span>  
+              <button className="btn-block default-btn accordion-cta" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                What are the 4 basic steps of CPR <span><IoIosArrowForward /></span>
               </button>
             </div>
             <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -94,8 +94,8 @@ if(color){
           </div>
           <div className="card ">
             <div className="card-header" id="headingThree">
-              <button className="btn-block default-btn accordion-cta" onClick={(e)=>addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                What are the basic Rules of CPR? <span><IoIosArrowForward /></span> 
+              <button className="btn-block default-btn accordion-cta" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                What are the basic Rules of CPR? <span><IoIosArrowForward /></span>
               </button>
             </div>
             <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -124,8 +124,8 @@ if(color){
           </div>
           <div className="card ">
             <div className="card-header" id="headingFour">
-              <button className="btn-block default-btn accordion-cta" onClick={(e)=>addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                Can only doctors and nurses perform CPR? <span><IoIosArrowForward /></span> 
+              <button className="btn-block default-btn accordion-cta" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                Can only doctors and nurses perform CPR? <span><IoIosArrowForward /></span>
               </button>
             </div>
             <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
@@ -139,8 +139,8 @@ if(color){
           </div>
           <div className="card ">
             <div className="card-header" id="headingFive">
-              <button className="btn-block default-btn accordion-cta" onClick={(e)=>addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                What is Hands-Only CPR? <span><IoIosArrowForward /></span> 
+              <button className="btn-block default-btn accordion-cta" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                What is Hands-Only CPR? <span><IoIosArrowForward /></span>
               </button>
             </div>
             <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
@@ -169,8 +169,8 @@ if(color){
           </div>
           <div className="card ">
             <div className="card-header" id="headingSix">
-              <button className="btn-block default-btn accordion-cta" onClick={(e)=>addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                Is my doing CPR safe for the victim <span><IoIosArrowForward /></span> 
+              <button className="btn-block default-btn accordion-cta" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                Is my doing CPR safe for the victim <span><IoIosArrowForward /></span>
               </button>
             </div>
             <div id="collapseSix" className="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
@@ -184,8 +184,8 @@ if(color){
           </div>
           <div className="card mb-5">
             <div className="card-header" id="headingSeven">
-              <button className="btn-block default-btn accordion-cta" onClick={(e)=>addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                Are you confident that you can now do CPR? <span><IoIosArrowForward /></span> 
+              <button className="btn-block default-btn accordion-cta" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                Are you confident that you can now do CPR? <span><IoIosArrowForward /></span>
               </button>
             </div>
             <div id="collapseSeven" className="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
