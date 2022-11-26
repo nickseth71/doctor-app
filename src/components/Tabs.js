@@ -40,7 +40,7 @@ function Tabs() {
             {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">
-            <button className="nav-link" id="pills-logout-tab" type="button" onClick={() => navigate(-1)}><ImExit /></button>
+            <button className="nav-link" id="pills-logout-tab" type="button" onClick={() => navigate('/Page_2')}><ImExit /></button>
           </li>
         </ul>
       </div>
