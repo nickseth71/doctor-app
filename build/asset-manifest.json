@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/build/static/css/main.b0515ec3.css",
-    "main.js": "/build/static/js/main.a7d3fc6f.js",
+    "main.js": "/build/static/js/main.2505278a.js",
     "static/media/indication.png": "/build/static/media/indication.48e5721054445b0be9fa.png",
     "service-worker.js": "/build/service-worker.js",
     "static/media/breathingman-two.png": "/build/static/media/breathingman-two.386e0035eff4ff0d26bd.png",
@@ -33,10 +33,10 @@
     "static/media/doctor-helpbreathing.png": "/build/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
     "index.html": "/build/index.html",
     "main.b0515ec3.css.map": "/build/static/css/main.b0515ec3.css.map",
-    "main.a7d3fc6f.js.map": "/build/static/js/main.a7d3fc6f.js.map"
+    "main.2505278a.js.map": "/build/static/js/main.2505278a.js.map"
   },
   "entrypoints": [
     "static/css/main.b0515ec3.css",
-    "static/js/main.a7d3fc6f.js"
+    "static/js/main.2505278a.js"
   ]
 }
