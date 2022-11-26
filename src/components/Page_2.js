@@ -1,7 +1,7 @@
 import React from 'react';
 // import Tabs from '../components/Tabs';
 import { Link } from "react-router-dom";
-import  {IoIosArrowForward}  from 'react-icons/io';
+import { IoIosArrowForward } from 'react-icons/io';
 const btnData = [
   {
     id: '1',
@@ -59,7 +59,9 @@ function Page_2() {
       <section className='page-cover text-center'>
         <h1 className='mb-4'>What will we learn</h1>
         {btnData.map((data) => (
+
           <Link key={data.id} to={data.url}><button className="default-btn mb-3" alt={data.title} >{data.name}  </button></Link>
+
         ))}
       </section>
     </>
