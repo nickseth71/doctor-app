@@ -15,10 +15,10 @@ function Page_3() {
                     <img src={wave} alt='Heart wave' title='Heart wave' className='img-fuild d-inline-block' />
                 </div>
                 <span className='d-block mt-5 mb-4 font600'>Sudden Cardiac Arrest/ventricular fibrillation</span>
-
-                <img src={heart} alt='Heart' title='Heart' className='img-fuild d-inline-block' />
-                <img src={wave} alt='Heart wave' title='Heart wave' className='img-fuild d-inline-block' />
-
+                <div className='imgWrapper'>
+                    <img src={heart} alt='Heart' title='Heart' className='img-fuild d-inline-block' />
+                    <img src={wave} alt='Heart wave' title='Heart wave' className='img-fuild d-inline-block' />
+                </div>
                 <div className='text-right mt-4'>
                     <Link to='/Page_4'>
                         <button className="small-btn" >CONTINUE</button>

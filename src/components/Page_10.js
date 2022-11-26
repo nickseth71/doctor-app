@@ -32,7 +32,7 @@ const btnData = [
 function Page_10() {
   return (
     <>
-      <section className='page-cover text-center'>
+      <section className='page-cover text-center cprWrap'>
         <h1 className='mt-4 mb-5'> Basic steps of CPR</h1>
         {btnData.map((data) => (
           <Link to={data.url} key={data.id}>

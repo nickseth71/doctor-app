@@ -1,7 +1,8 @@
 import React from 'react';
 import Tabs from '../components/Tabs';
 import satyamave from '../assets/images/satyamave.png';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 function Page_8() {
     return (
         <>
@@ -14,6 +15,12 @@ function Page_8() {
                 <p className='font600'>So if you help a cardiac arrest victim, the Country and the Law are with YOU!!</p>
                 {/* <div className='text-right'>
                     <Link to="/Page_10"><button className="small-btn" >CONTINUE</button></Link>
+                </div> */}
+
+                {/* <div className='text-right mt-4'>
+                    <Link to="/Page_3">
+                        <button className="small-btn" >CONTINUE</button>
+                    </Link>
                 </div> */}
             </section>
             <Tabs />

@@ -283,9 +283,43 @@ section.page-cover.text-center {
 }
 
 @media (max-width: 769px) {
+  .imgWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .imgWrapper img {
+    width: 50%;
+    object-fit: contain;
+  }
+
+  .page-heart_wrap .indic {
+    width: 75%;
+  }
+
+  .indiWrap {
+    position: relative;
+  }
+
+  .indiWrap span {
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    font-weight: 600;
+  }
+
   .page-heart_wrap {
     max-width: 100%;
   }
+
+  section.page-cover.text-center.cprWrap button {
+    margin-bottom: 30px !important;
+  }
+
+  /* section.page-cover button {
+    padding: 5px 10px;
+  } */
 
   .default-btn {
     width: 100%;
