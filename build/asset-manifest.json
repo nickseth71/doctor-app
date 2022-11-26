@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.b0515ec3.css",
-    "main.js": "/static/js/main.8521d468.js",
+    "main.js": "/static/js/main.ff4b47d0.js",
     "static/media/indication.png": "/static/media/indication.48e5721054445b0be9fa.png",
     "service-worker.js": "/service-worker.js",
-    "static/media/heart-img.png": "/static/media/heart-img.78e4d929b4fe7a4ca9a6.png",
     "static/media/breathingman-two.png": "/static/media/breathingman-two.386e0035eff4ff0d26bd.png",
     "static/media/aed-hand.png": "/static/media/aed-hand.32b90b95198202ff0997.png",
     "static/media/satyamave.png": "/static/media/satyamave.081700900b55c9870577.png",
@@ -34,10 +33,10 @@
     "static/media/doctor-helpbreathing.png": "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
     "index.html": "/index.html",
     "main.b0515ec3.css.map": "/static/css/main.b0515ec3.css.map",
-    "main.8521d468.js.map": "/static/js/main.8521d468.js.map"
+    "main.ff4b47d0.js.map": "/static/js/main.ff4b47d0.js.map"
   },
   "entrypoints": [
     "static/css/main.b0515ec3.css",
-    "static/js/main.8521d468.js"
+    "static/js/main.ff4b47d0.js"
   ]
 }
