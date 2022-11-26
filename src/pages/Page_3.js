@@ -11,8 +11,9 @@ function Page_3() {
                 <h1 className='mb-4'>What is Sudden Cardiac Arrest?</h1>
                 <p className='mb-5'>It is a malfunctioning of the electrical system of the heart caused by sudden ventricular fibrillation</p>
                 <span className='d-block mb-3 font600'>Normal beating of Heart</span>
-                <img src={heart} alt='Heart' title='Heart' className='img-fuild d-inline-block' />
-                <img src={wave} alt='Heart wave' title='Heart wave' className='img-fuild d-inline-block' />
+                <div className='imgWrapper'> <img src={heart} alt='Heart' title='Heart' className='img-fuild d-inline-block' />
+                    <img src={wave} alt='Heart wave' title='Heart wave' className='img-fuild d-inline-block' />
+                </div>
                 <span className='d-block mt-5 mb-4 font600'>Sudden Cardiac Arrest/ventricular fibrillation</span>
 
                 <img src={heart} alt='Heart' title='Heart' className='img-fuild d-inline-block' />

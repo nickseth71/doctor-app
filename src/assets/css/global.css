@@ -1,26 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
-h1, h2, h3, h4, h5, h6, p, a {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   font-family: 'Roboto Slab', serif;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fff;
 }
-p, a {
- color: #ece3e3;
+
+p,
+a {
+  color: #ece3e3;
 }
+
 h1 {
   font-size: 40px;
   font-weight: 600;
 }
+
 span {
   --font-family: 'Lato', sans-serif;
   color: #fff;
 }
+
 p {
   --font-size: 16px;
   --font-weight: 700;
   --font-family: 'Lato', sans-serif;
 }
+
 .App-cover {
   position: relative;
 }
@@ -50,6 +70,7 @@ p {
   width: 100%;
   max-width: 435px;
 }
+
 .tab-block {
   box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
   width: 100%;
@@ -59,6 +80,7 @@ p {
   /* z-index: 99999; */
   background-color: #67a697;
 }
+
 /* .tab-block {
   margin-top: 75px;
 } */
@@ -77,15 +99,17 @@ p {
 /* ---- */
 .hide-img {
   position: absolute;
-  top: 40px; 
+  top: 40px;
   left: -15px;
   opacity: 0.2;
 }
+
 .aed-img {
   position: absolute;
   top: 905px;
   right: 0;
-} 
+}
+
 .breathing-img {
   position: absolute;
   right: 0;
@@ -148,20 +172,25 @@ p {
   border-bottom: none;
   padding: 0;
 }
+
 .page_11-wrap button svg {
   width: 20px;
   height: 28px;
 }
+
 .page_11-wrap .default-btn svg {
   transform: rotate(90deg);
   transition: 0.2s linear all;
 }
+
 .page_11-wrap .default-btn.collapsed svg {
   transform: unset;
 }
+
 .accordion-cta.active {
-  background-color:  #322D73;
-} 
+  background-color: #322D73;
+}
+
 .card_one .hand-img {
   position: absolute;
   top: 50px;
@@ -201,6 +230,7 @@ p {
 body {
   background-color: #67a697 !important;
 }
+
 section.page-cover.text-center h1 {
   color: #fff;
   font-size: 25px;
@@ -209,38 +239,46 @@ section.page-cover.text-center h1 {
   text-transform: capitalize;
   text-align: center;
 }
+
 section.page-cover button {
   font-size: 16px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
+  justify-content: center;
 }
+
 section.page-cover.text-center {
   height: calc(100vh - 80px);
   overflow: auto;
   padding: 30px 15px;
 }
+
 .card h5 {
   font-size: 22px;
   font-weight: 600;
   color: #fff;
 }
+
 .page-cover sapn {
   color: #fff;
 }
+
 .page-heart_wrap {
   max-width: 500px;
   margin: 0 auto;
 }
+
 .yes-no_wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .yes-no_wrap button {
   width: 50%;
 }
 
-.page_11-wrap  .card {
+.page_11-wrap .card {
   margin-bottom: 10px;
 }
 
@@ -248,35 +286,42 @@ section.page-cover.text-center {
   .page-heart_wrap {
     max-width: 100%;
   }
-  .default-btn  {
+
+  .default-btn {
     width: 100%;
     min-width: 100%;
   }
+
   .tab-block ul#pills-tab {
     justify-content: center;
     max-width: 100%;
   }
+
   .tab-block .nav-link {
     font-size: 30px;
   }
+
   .tab-block {
     height: 60px;
   }
-  
+
   .page-cover img[title="Sleeping Man"],
   .page-cover img[title="Help to Man"],
-  .page-cover img[title="steps-breathingman" ] {
+  .page-cover img[title="steps-breathingman"] {
     width: 100%;
     margin: 0 auto !important;
     max-width: 300px;
-  } 
-  .page-cover  .img-box img {
+  }
+
+  .page-cover .img-box img {
     width: 50%;
-}
-.small-btn {
-  bottom: 78px;
-}
-p {
-  font-size: 14px;
-}
+  }
+
+  .small-btn {
+    bottom: 78px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
