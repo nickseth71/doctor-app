@@ -58,11 +58,8 @@ function Page_2() {
     <>
       <section className='page-cover text-center'>
         <h1 className='mb-4'>What will we learn</h1>
-
         {btnData.map((data) => (
-
           <Link key={data.id} to={data.url}><button className="default-btn mb-3" alt={data.title} >{data.name}  </button></Link>
-
         ))}
       </section>
     </>
