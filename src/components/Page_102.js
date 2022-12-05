@@ -18,7 +18,7 @@ function Page_102() {
         window.addEventListener('scroll', handleScroll);
     }, []);
     const handleScroll = (event) => {
-        if (event.target.scrollTop >= 10) {
+        if (event.target.scrollTop >= 20) {
             setScrollPosition("stickyheader");
         } else {
             setScrollPosition("noStricyHeader");
