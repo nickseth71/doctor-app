@@ -35,7 +35,6 @@ function Page_102() {
                 </div>
                 <div className='main-wrapper'>
                     <img src={stepstoBreathingman2} alt='steps-breathingman' title='steps-breathingman' className='img-fuild m-auto d-block breathing-img' />
-
                     <div className='content-border_box'>
                         <p>Lay the person on his/her back, on a firm/flat surface or floor</p>
                         <div className='partition'></div>

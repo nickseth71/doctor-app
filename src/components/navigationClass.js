@@ -1,5 +1,5 @@
 class NaveParmeter {
-    static tabActive = "";
+    static tabActive = "home";
 }
 
 export default NaveParmeter;
