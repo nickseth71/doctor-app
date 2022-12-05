@@ -148,9 +148,9 @@ body {
 
 .default-btn {
     background-color: var(--purple);
-    padding: 20px 15px;
+    padding: 20px 12px;
     border-radius: 9px;
-    text-align: left;
+    text-align: center;
     color: var(--white);
     min-width: 400px;
     border: 0;
@@ -158,22 +158,25 @@ body {
     margin: auto;
     justify-content: space-between;
 }
+
 .default-btn.active {
     background-color: #322D73;
 }
+
 .small-btn {
-    min-width: 196px;
+    min-width: 130px;
     position: fixed;
     right: 15px;
     bottom: 112px;
 }
 
-.small-btn, .yes-btn {
+.small-btn,
+.yes-btn {
     background-color: var(--purple);
-    padding: 16px 15px;
+    padding: 10px 15px;
     border-radius: 40px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 27px;
     text-align: center;
     color: var(--white);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 // import Tabs from '../components/Tabs';
 import { Link } from "react-router-dom";
 // import { IoIosArrowForward } from 'react-icons/io';
@@ -54,13 +54,34 @@ const btnData = [
 ]
 
 function Page_2() {
+
+  const [scrollPosition, setScrollPosition] = useState("noStricyHeader");
+
+  useLayoutEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+  const handleScroll = (event) => {
+    if (event.target.scrollTop >= 10) {
+      setScrollPosition("stickyheader");
+    } else {
+      setScrollPosition("noStricyHeader");
+    }
+
+  }
+
   return (
     <>
-      <section className='page-cover text-center'>
-        <h1 className='mb-4'>What will we learn</h1>
-        {btnData.map((data) => (
-          <Link key={data.id} to={data.url}><button className="default-btn mb-3" alt={data.title} >{data.name}  </button></Link>
-        ))}
+      <section className='page-cover text-center' onScroll={(e) => handleScroll(e)}>
+        <div>
+          <div className={scrollPosition}>
+            <h1>What will we learn</h1>
+          </div>
+          <div className='main-wrapper'>
+            {btnData.map((data) => (
+              <Link key={data.id} to={data.url}><button className="default-btn mb-3" alt={data.title} >{data.name}  </button></Link>
+            ))}
+          </div>
+        </div>
       </section>
     </>
   )

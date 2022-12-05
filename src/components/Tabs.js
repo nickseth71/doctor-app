@@ -2,6 +2,7 @@ import React from 'react';
 import { FaHome, FaDatabase, FaInfo, FaDelicious } from "react-icons/fa";
 import { ImExit } from "react-icons/im";
 import { useNavigate } from "react-router-dom";
+import { RiArrowGoBackFill } from "react-icons/ri";
 
 function Tabs() {
   let navigate = useNavigate();
@@ -21,7 +22,14 @@ function Tabs() {
         document.querySelector("#pills-home-tab").classList.add("active");
       }, 400);
     }
-    navigate(url);
+    if (url !== "back") {
+      navigate(url);
+    } else {
+      if (window.location.pathname !== "/Page_2") {
+        navigate(-1);
+      }
+    }
+
     // // navigate("/Page_102");
     // document.querySelectorAll(".active_btn").forEach(itm => {
     //   itm.style.fill = "#fff";
@@ -52,11 +60,11 @@ function Tabs() {
           </li>
           <li className="nav-item" role="presentation">
             {/* <Link to="/Page_8"> */}
-            <button className="nav-link active_btn" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={(e) => handleHomeTab(e, "/Page_102")}><FaInfo /></button>
+            <button className="nav-link active_btn" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={(e) => handleHomeTab(e, "/Page_8")}><FaInfo /></button>
             {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">
-            <button className="nav-link active_btn" id="pills-logout-tab" type="button" data-toggle="pill" data-target="#pills-layout" role="tab" aria-controls="pills-layout" aria-selected="false" onClick={(e) => handleHomeTab(e, "/Page_2", true)}><ImExit /></button>
+            <button className="nav-link active_btn" id="pills-logout-tab" type="button" data-toggle="pill" data-target="#pills-layout" role="tab" aria-controls="pills-layout" aria-selected="false" onClick={(e) => handleHomeTab(e, "back", true)}><RiArrowGoBackFill /></button>
           </li>
         </ul>
       </div>

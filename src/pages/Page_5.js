@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 import Tabs from '../components/Tabs';
 import heart from '../assets/images/heart.png';
 import breathing from '../assets/images/breathing.png';
 import heartwave from '../assets/images/heart-wave.png';
 import { Link } from "react-router-dom";
 function Page_5() {
+    const [scrollPosition, setScrollPosition] = useState("noStricyHeader");
+
+    useLayoutEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+    }, []);
+    const handleScroll = (event) => {
+        if (event.target.scrollTop >= 60) {
+            setScrollPosition("stickyheader");
+        } else {
+            setScrollPosition("noStricyHeader");
+        }
+    }
     return (
         <>
-            <section className='page-cover text-center'>
+            <section className='page-cover text-center' onScroll={(e) => handleScroll(e)}>
                 <img src={heart} alt='Heart' title='Heart' className='img-fuild d-block text-left opacity hide-img' />
                 <h1 className='mb-4'>Why is it important for Indians to learn CPR</h1>
                 <div className='content-border_box'>
