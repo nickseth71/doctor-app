@@ -8,12 +8,13 @@ import highwave from '../assets/images/highwave.png';
 import highbreathing from '../assets/images/right-breathing.png';
 import hightwaverate from '../assets/images/hightwaverate.png';
 import heart from '../assets/images/low-heart.png';
-
+import { useNavigate } from "react-router-dom";
 import { IoIosArrowForward } from 'react-icons/io';
 
 
 
 function Page_11() {
+  let navigate = useNavigate();
   const [color, setColor] = useState(true);
   const [scrollPosition, setScrollPosition] = useState("noStricyHeader");
   const addClassActive = (e) => {
@@ -52,7 +53,7 @@ function Page_11() {
           <div className="accordion card-container" id="accordionExample">
             <div className="card">
               <div className="card-header" id="headingOne">
-                <button className="btn-block default-btn accordion-cta  mb-3 active" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <button className="btn-block default-btn accordion-cta  mb-3 active" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   How can I be sure that the person who collapsed has had a cardiac arrest? <span><IoIosArrowForward /> </span>
                 </button>
               </div>
@@ -203,10 +204,10 @@ function Page_11() {
                   Are you confident that you can now do CPR? <span><IoIosArrowForward /></span>
                 </button>
               </div>
-              <div id="collapseSeven" className="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+              <div id="collapseSeven" className="collapse my-5" aria-labelledby="headingSeven" data-parent="#accordionExample">
                 <div className="card-body yes-no_wrap">
-                  <button className="yes-btn mr-4">YES</button>
-                  <button className="yes-btn">No</button>
+                  <button className="yes-btn mr-4" onClick={() => navigate("/Page_12")}>YES</button>
+                  <button className="yes-btn" onClick={() => navigate("/Page_2")}>No</button>
                 </div>
               </div>
             </div>

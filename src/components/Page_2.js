@@ -2,6 +2,7 @@ import React, { useState, useLayoutEffect } from 'react';
 // import Tabs from '../components/Tabs';
 import { Link } from "react-router-dom";
 // import { IoIosArrowForward } from 'react-icons/io';
+// import NaveParmeter from "../../"
 const btnData = [
   {
     id: '1',
