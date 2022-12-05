@@ -247,7 +247,7 @@ section.page-cover button {
   font-weight: 500;
   line-height: 15px;
   font-family: 'Poppins', sans-serif;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .indiWrap img {

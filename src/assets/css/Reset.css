@@ -156,7 +156,7 @@ body {
     border: 0;
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .default-btn.active {
@@ -223,4 +223,10 @@ h1 {
     font-size: 30px;
     line-height: 45px;
     text-align: center;
+}
+
+@media (max-width:480px) {
+    .default-btn {
+        display: block;
+    }
 }

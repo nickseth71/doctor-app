@@ -79,7 +79,7 @@ function Page_2() {
           </div>
           <div className='main-wrapper'>
             {btnData.map((data) => (
-              <Link key={data.id} to={data.url}><button className="default-btn mb-3" alt={data.title} >{data.name}  </button></Link>
+              <Link key={data.id} to={data.url}><button className="default-btn mb-3 text-center" alt={data.title} >{data.name}  </button></Link>
             ))}
           </div>
         </div>
