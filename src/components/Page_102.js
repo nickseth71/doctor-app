@@ -18,7 +18,7 @@ function Page_102() {
         window.addEventListener('scroll', handleScroll);
     }, []);
     const handleScroll = (event) => {
-        if (event.target.scrollTop >= 60) {
+        if (event.target.scrollTop >= 10) {
             setScrollPosition("stickyheader");
         } else {
             setScrollPosition("noStricyHeader");
@@ -30,8 +30,10 @@ function Page_102() {
             <section className='page-cover text-center relative' onScroll={(e) => handleScroll(e)}>
                 <div className={scrollPosition}>
                     <div className="main-wrapper">
-                        <h1 className='mt-3'>Give CPR</h1>
+                        <h1 className='mb-3'>Give CPR</h1>
                     </div>
+                </div>
+                <div>
                     <img src={stepstoBreathingman2} alt='steps-breathingman' title='steps-breathingman' className='img-fuild m-auto d-block breathing-img' />
 
                     <div className='content-border_box'>
