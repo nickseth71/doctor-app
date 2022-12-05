@@ -33,7 +33,7 @@ function Page_102() {
                         <h1 className='mb-3'>Give CPR</h1>
                     </div>
                 </div>
-                <div>
+                <div className='main-wrapper'>
                     <img src={stepstoBreathingman2} alt='steps-breathingman' title='steps-breathingman' className='img-fuild m-auto d-block breathing-img' />
 
                     <div className='content-border_box'>

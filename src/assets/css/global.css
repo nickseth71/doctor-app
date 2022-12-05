@@ -245,6 +245,7 @@ section.page-cover.text-center h1 {
 section.page-cover button {
   font-size: 16px;
   font-weight: 500;
+  line-height: 15px;
   font-family: 'Poppins', sans-serif;
   justify-content: space-between;
 }
