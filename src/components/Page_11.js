@@ -197,7 +197,7 @@ function Page_11() {
                 </div>
               </div>
             </div>
-            <div className="card mb-5">
+            <div className="card">
               <div className="card-header" id="headingSeven">
                 <button className="btn-block default-btn accordion-cta mb-3" onClick={(e) => addClassActive(e)} type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                   Are you confident that you can now do CPR? <span><IoIosArrowForward /></span>
