@@ -359,6 +359,7 @@ section.page-cover a {
 
   .tab-block {
     height: 60px;
+    z-index: 99999;
   }
 
   .page-cover img[title="Sleeping Man"],
