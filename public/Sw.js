@@ -1,6 +1,5 @@
 let cacheData = "doctorV1";
 this.addEventListener('install', (event) => {
-    alert("hello");
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
             cache.addAll([

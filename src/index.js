@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import swDev from './swDev';
+// import swDev from './swDev';
 import './assets/css/global.css'
 // import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 // import reportWebVitals from './reportWebVitals';
@@ -13,6 +13,13 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+function swDev() {
+  let swUrl = `${process.env.PUBLIC_URL}/Sw.js`;
+  navigator.serviceWorker.register(swUrl).then((response) => {
+    console.log('response', response);
+  })
+}
 
 swDev();
 
