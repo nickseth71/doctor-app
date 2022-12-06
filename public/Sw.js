@@ -1,5 +1,6 @@
 let cacheData = "doctorV1";
 this.addEventListener('install', (event) => {
+    alert("hello");
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
             cache.addAll([
@@ -7,7 +8,7 @@ this.addEventListener('install', (event) => {
                 "/static/js/main.chunk.js",
                 "/static/js/0.chunk.js",
                 "/index.html",
-                "https://doctor-app-3c8e58.netlify.app/",
+                "/",
                 "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap",
                 "/manifest.json",
                 "/favicon.ico",
