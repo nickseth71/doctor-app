@@ -2,6 +2,7 @@ let cacheData = "doctorV1";
 this.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
+            console.log("check cache using =======>");
             cache.addAll([
                 "/static/js/bundle.js",
                 "/static/js/main.chunk.js",
