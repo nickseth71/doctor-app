@@ -52,14 +52,14 @@ self.addEventListener('install', (event) => {
 
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
-            console.log("hello", cache_url, cache);
-            cache.put(cache_url);
+            // console.log("hello", cache_url, cache);
+            return cache.addAll(cache_url);
         })
     )
 });
 
 self.addEventListener("fetch", (event) => {
-    console.log("hello", event);
+    // console.log("hello", event);
     if (!navigator.onLine) {
         event.respondWith(
             caches.match(event.request).then((result) => {
