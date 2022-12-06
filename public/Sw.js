@@ -49,6 +49,7 @@ const cache_url = [
     "/Page_104"
 ]
 self.addEventListener('install', (event) => {
+    console.log("hello", event);
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
 
