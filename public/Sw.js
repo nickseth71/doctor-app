@@ -52,7 +52,7 @@ self.addEventListener('install', (event) => {
 
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
-            console.log("hello");
+            console.log("hello", cache_url, cache);
             cache.addAll(cache_url);
         })
     )
@@ -65,6 +65,8 @@ self.addEventListener("fetch", (event) => {
             caches.match(event.request).then((result) => {
                 if (result) {
                     return result;
+                } else {
+                    return false;
                 }
             })
         )
