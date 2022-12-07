@@ -2,8 +2,8 @@ let cacheData = "doctorV1";
 const cache_url = [
     "https://doctor-app-3c8e58.netlify.app/",
     "https://doctor-app-3c8e58.netlify.app/index.html",
-    "https://doctor-app-3c8e58.netlify.app/assets/css/Reset.css",
-    "https://doctor-app-3c8e58.netlify.app/assets/css/global.css",
+    "https://doctor-app-3c8e58.netlify.app/static/css/assets/css/Reset.css",
+    "https://doctor-app-3c8e58.netlify.app/static/css/assets/css/global.css",
     "https://doctor-app-3c8e58.netlify.app/Page_2",
     "https://doctor-app-3c8e58.netlify.app/Page_3",
     "https://doctor-app-3c8e58.netlify.app/Page_4",
