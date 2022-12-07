@@ -34,7 +34,10 @@ const cache_url = [
     "https://doctor-app-3c8e58.netlify.app/static/media/home-screen.bc8948cc0d4703313bd7.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/indication.48e5721054445b0be9fa.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/heart.881514d5e3a63b4317b1.png",
-
+    "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
+    "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+    "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+    "chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/js.js",
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
