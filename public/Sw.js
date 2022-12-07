@@ -48,7 +48,7 @@ const cache_url = [
     "/Page_103",
     "/Page_104"
 ]
-self.addEventListener('install', (event) => {
+this.addEventListener('install', (event) => {
 
     event.waitUntil(
         caches.open(cacheData).then(function (cache) {
@@ -58,8 +58,7 @@ self.addEventListener('install', (event) => {
     )
 });
 
-self.addEventListener("fetch", (event) => {
-    // console.log("hello", event);
+this.addEventListener("fetch", (event) => {
     if (!navigator.onLine) {
         event.respondWith(
             caches.match(event.request).then((result) => {
