@@ -59,7 +59,6 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-    // console.log("hello", event);
     if (!navigator.onLine) {
         event.respondWith(
             caches.match(event.request).then((result) => {
