@@ -67,8 +67,6 @@ const cache_url = [
     "https://doctor-app-3c8e58.netlify.app/static/media/india.10dc98ca5dccf7e7f502.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/low-heart.e54e37ff3f002fd376eb.png",
-
-
 ]
 self.addEventListener('install', (event) => {
     event.waitUntil(
