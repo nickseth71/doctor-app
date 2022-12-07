@@ -9,10 +9,10 @@ function Tabs() {
   let navigate = useNavigate();
   const [active, setActive] = useState('home');
   const handleHomeTab = (e, url, tab_url) => {
-    NaveParmeter.tabActive = tab_url;
-    setActive(tab_url);
 
     if (url !== "back") {
+      NaveParmeter.tabActive = tab_url;
+      setActive(tab_url);
       navigate(url);
     } else {
       if (window.location.pathname !== "/Page_2") {
@@ -50,7 +50,8 @@ function Tabs() {
             {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">
-            <button className={`nav-link active_btn ${active == 'back' ? "active" : ""}`} id="pills-logout-tab" type="button" data-toggle="pill" data-target="#pills-layout" role="tab" aria-controls="pills-layout" aria-selected="false" onClick={(e) => handleHomeTab(e, "back", "back")}><RiArrowGoBackFill /></button>
+            {/* ${active == 'back' ? "active" : ""} */}
+            <button className={`nav-link active_btn`} id="pills-logout-tab" type="button" data-toggle="pill" data-target="#pills-layout" role="tab" aria-controls="pills-layout" aria-selected="false" onClick={(e) => handleHomeTab(e, "back", "back")}><RiArrowGoBackFill /></button>
           </li>
         </ul>
       </div>
