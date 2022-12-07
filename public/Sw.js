@@ -51,8 +51,8 @@ const cache_url = [
 this.addEventListener('install', (event) => {
 
     event.waitUntil(
-        caches.open(cacheData).then(function (cache) {
-            return cache.addAll(cache_url);
+        caches.open(cacheData).then((cache) => {
+            cache.addAll(cache_url);
         })
     )
 });
