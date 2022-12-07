@@ -48,16 +48,18 @@ const cache_url = [
     "/Page_103",
     "/Page_104"
 ]
-this.addEventListener('install', (event) => {
+self.addEventListener('install', (event) => {
+
     event.waitUntil(
-        caches.open(cacheData).then((cache) => {
-            cache.addAll(cache_url);
+        caches.open(cacheData).then(async (cache) => {
+            // console.log("hello", cache_url, cache);
+            return await cache.addAll(cache_url);
         })
     )
 });
 
-this.addEventListener("fetch", (event) => {
-
+self.addEventListener("fetch", (event) => {
+    // console.log("hello", event);
     if (!navigator.onLine) {
         event.respondWith(
             caches.match(event.request).then((result) => {
