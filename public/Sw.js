@@ -37,7 +37,7 @@ const cache_url = [
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
-    // "chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/js.js",
+    "https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap",
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
@@ -53,6 +53,21 @@ const cache_url = [
     "https://doctor-app-3c8e58.netlify.app/static/media/10nose.2c29714906aa04a6b26b.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/tenCheckup.72325f809fbb1f99f812.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/10front.94b8985a0d3330b879a3.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/stepsto-breathing.e9247f1fdd011ab3d370.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/user-head1.ce5a6284367bfdef6c8f.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/user-head2.5d5d1319410c4d5b3b1b.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/user-head3.144f023671e684d22fb7.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/user-head4.185eb64c1aed19d6788c.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/breathingman-three.0704c9fe2bc1f7639f0d.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/breathingman-two.386e0035eff4ff0d26bd.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/aed-lock.afffc49c26d2472b3320.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/aed-low.84371c5ef834a6e8f9d8.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/aed-hand.32b90b95198202ff0997.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/aed-man.08c92ba240c6a114ed69.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/india.10dc98ca5dccf7e7f502.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/low-heart.e54e37ff3f002fd376eb.png",
+
 
 ]
 self.addEventListener('install', (event) => {
