@@ -47,14 +47,12 @@ const cache_url = [
     "https://doctor-app-3c8e58.netlify.app/static/media/hand.3824e11620acba2425ef.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/moot-ki-sawari.ca6421c19215e23e711b.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/satyamave.081700900b55c9870577.png",
-    // "/static/media/10man.5384b1cd5edf74805c85.png",
-    // "/static/media/10help-men.099f6d0165d9a8732d66.png",
-    // "/static/media/10pils.bc2c00aab84e6face3a6.png",
-    // "/static/media/10nose.2c29714906aa04a6b26b.png",
-    // "/static/media/tenCheckup.72325f809fbb1f99f812.png",
-    // "/static/media/10front.94b8985a0d3330b879a3.png",
-    // "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
-    // "/static/media/low-heart.e54e37ff3f002fd376eb.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/10man.5384b1cd5edf74805c85.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/10help-men.099f6d0165d9a8732d66.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/10pils.bc2c00aab84e6face3a6.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/10nose.2c29714906aa04a6b26b.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/tenCheckup.72325f809fbb1f99f812.png",
+    "https://doctor-app-3c8e58.netlify.app/static/media/10front.94b8985a0d3330b879a3.png",
 
 ]
 self.addEventListener('install', (event) => {
