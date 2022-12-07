@@ -52,7 +52,6 @@ this.addEventListener('install', (event) => {
 
     event.waitUntil(
         caches.open(cacheData).then(function (cache) {
-            // console.log("hello", cache_url, cache);
             return cache.addAll(cache_url);
         })
     )
