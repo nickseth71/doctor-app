@@ -5,7 +5,7 @@ const cache_url = [
     "https://doctor-app-3c8e58.netlify.app/static/css/main.4bb8cbdb.css",
     // "https://doctor-app-3c8e58.netlify.app/static/css/assets/css/Reset.css",
     // "https://doctor-app-3c8e58.netlify.app/static/css/assets/css/global.css",
-    // "https://doctor-app-3c8e58.netlify.app/Page_2",
+    "https://doctor-app-3c8e58.netlify.app/Page_2",
     // "https://doctor-app-3c8e58.netlify.app/Page_3",
     // "https://doctor-app-3c8e58.netlify.app/Page_4",
     // "https://doctor-app-3c8e58.netlify.app/Page_5",
