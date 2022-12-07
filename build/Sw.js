@@ -51,9 +51,9 @@ const cache_url = [
 self.addEventListener('install', (event) => {
 
     event.waitUntil(
-        caches.open(cacheData).then(cache => {
+        caches.open(cacheData).then(async (cache) => {
             // console.log("hello", cache_url, cache);
-            return cache.addAll(cache_url);
+            return await cache.addAll(cache_url);
         })
     )
 });
