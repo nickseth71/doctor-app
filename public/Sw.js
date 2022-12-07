@@ -49,7 +49,7 @@ const cache_url = [
     "/Page_104"
 ]
 this.addEventListener('install', (event) => {
-
+    // CI = false npm run build
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
             cache.addAll(cache_url);
@@ -58,6 +58,7 @@ this.addEventListener('install', (event) => {
 });
 
 this.addEventListener("fetch", (event) => {
+
     if (!navigator.onLine) {
         event.respondWith(
             caches.match(event.request).then((result) => {
