@@ -17,6 +17,9 @@ function Tabs() {
     } else {
       if (window.location.pathname !== "/Page_2") {
         navigate(-1);
+      } else {
+        NaveParmeter.tabActive = "/Page_2";
+        setActive("/Page_2");
       }
     }
   }
