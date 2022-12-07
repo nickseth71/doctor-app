@@ -34,6 +34,7 @@ const cache_url = [
     "https://doctor-app-3c8e58.netlify.app/static/media/home-screen.bc8948cc0d4703313bd7.png",
     // "https://doctor-app-3c8e58.netlify.app/static/media/heart-img.78e4d929b4fe7a4ca9a6.png",
     "https://doctor-app-3c8e58.netlify.app/static/media/heart.881514d5e3a63b4317b1.png",
+
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2",
     "https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2",
