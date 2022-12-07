@@ -53,6 +53,7 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(cacheData).then(async (cache) => {
             // console.log("hello", cache_url, cache);
+            // CI = false 
             cache.addAll(cache_url);
         })
     )
