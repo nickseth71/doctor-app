@@ -72,25 +72,10 @@ const cache_url = [
 ]
 self.addEventListener('install', (event) => {
 
-    // event.waitUntil(
-    //     caches.open(cacheData).then(async (Cache) => {
-    //         // console.log("hello", cache_url, cache);
-    //         // CI = false 
-    //         Cache.addAll(cache_url);
-    //     })
-    // )
-
     event.waitUntil(
-
-        (async () => {
-            try {
-                cache_obj = await caches.open(cacheData)
-                cache_obj.addAll(cache_url)
-            }
-            catch {
-                console.log("error occured while caching...")
-            }
-        })()
+        caches.open(cacheData).then((cache) => {
+            cache.addAll(cache_url);
+        })
     )
 });
 
